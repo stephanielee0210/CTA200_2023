@@ -1,0 +1,80 @@
+  268  pwd
+  269  cd ..
+  270  pwd
+  271  cd murray
+  272  ls -la
+  273  cd homw
+  274  cd home
+  275  ls -la
+  276  cd murray
+  277  ls -la
+  278  find -name 'Hello_word.c'
+  279  ls -la
+  280  :Q
+  281  find -name 'Hello_world'
+  282  pwd
+  283  cd student15
+  284  cd ..
+  285  pwd
+  286  cd student15
+  287  cd home
+  288  cd h2
+  289  ls -la
+  290  cd student15
+  291  pwd
+  292  cd CTA200_2023
+  293  cd assignment_1
+  294  pwd
+  295  cp -av /cita/home/murray/Hello_world.c 
+  296  cp -av /cita/home/murray/Hello_world.c /cita/home/student15/CTA200_2023/assignment_1
+  297  ls -la
+  298  cp -av /cita/home/murray/Hello_world.py /cita/home/student15/CTA200_2023/assignment_1
+  299  ls -la
+  300  mv Hello_world.c Hello_world_lee.c
+  301  ls -la
+  302  mv Hello_world.py Hello_world_lee.py
+  303  ls -la
+  304  gcc Hello_world_lee.c
+  305  ./Hello_world_lee.c > Hello_world.x
+  306  pwd
+  307  /cita/home/student15/CTA200_2023/assignment1/Hello_world_lee.c > Hello_world.x
+  308  ls -lt
+  309  iv Hello_world.x
+  310  module avail
+  311  module load gcc
+  312  module avail
+  313  gcc Hello_world_lee.c
+  314  ls -lt
+  315  /cita/home/student15/CTA200_2023/assignment1/Hello_world_lee.c > Hello_world.x
+  316  mv a.out Hello_world.x
+  317  ls -lt
+  318  module load python
+  319  Hello_world.x
+  320  ./Hello_world .run
+  321  pwd
+  322  /cita/home/student15/CTA200_2023/assignment_1
+  323  /cita/home/student15/CTA200_2023/assignment_1/Hello_world.x run
+  324  /cita/home/student15/CTA200_2023/assignment_1/Hello_world_lee.py run
+  325  ./Hello_world.x run
+  326  ./Hello_world_lee.py run
+  327  python Hello_world_lee.py
+  328  vi Hello_world.x
+  329  vi Hello_world_lee.c
+  330  vi Hello_world_lee.py
+  331  python Hello_world_lee.py
+  332  ./Hello_world_lee.c run
+  333  gcc Hello_world_lee.c
+  334  ./Hello_world.lee.c run
+  335  ./Hello_world_lee.c run
+  336  ./Hello_world_lee.c > output_c.txt
+  337  ls -lt
+  338  ./output_c.txt run
+  339  mv a.out output_c.txt
+  340  ./output_c.txt run
+  341  ./Hello_world_lee.py > output_python.txt
+  342  ls -lt
+  343  python -u Hello_world_lee.py > output_python.txt
+  344  ls -lt
+  345  cat output_python.txt
+  346  history
+  347  history 80 > history.txt
